@@ -1,3 +1,11 @@
-const Index = () => <h2>My page</h2>;
+import Meta from '../Components/Meta/index';
+import Page from '../Components/Page/index';
+
+const Index = () => (
+    <div>
+        <Meta />
+        <Page />
+    </div>
+);
 
 export default Index;
