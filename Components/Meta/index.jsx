@@ -7,6 +7,7 @@ const Meta = () => (
     <meta name="author" content="Nate Mescher" />
     <meta name="description" content="Nate Mescher portfolio for NVTEVISUALS freelance event photography and videography" />
     <title>NVTEVISUALS</title>
+    <style>{`body { margin: 0; }`}</style>
   </Head>
 );
 
