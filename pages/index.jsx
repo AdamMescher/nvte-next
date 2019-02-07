@@ -1,11 +1,14 @@
 import Meta from '../Components/Meta/index';
 import Page from '../Components/Page/index';
+import Hero from '../Components/Hero/index';
 
 const Index = () => (
-    <div>
+    <main>
         <Meta />
-        <Page />
-    </div>
+        <Page>
+            <Hero />
+        </Page>
+    </main>
 );
 
 export default Index;
