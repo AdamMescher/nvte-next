@@ -24,6 +24,7 @@ const StyledNav = styled.nav`
         text-decoration: none;
         color: white;
         font-size: 2.369em;
+        font-family: ${props => props.theme.fontStack.serif};
     }
     ul li a:hover {
         color: black;
