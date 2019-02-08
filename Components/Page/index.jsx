@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
-import Meta from '../Meta/index';
-import StyledPage from './styled';
-import theme from '../../lib/theme';
 import reset from 'styled-reset'
+import StyledPage from './styled';
+import Meta from '../Meta/index';
+import Footer from '../Footer/index';
+import theme from '../../lib/theme';
 
 createGlobalStyle`
  ${reset}
@@ -56,6 +57,7 @@ class Page extends Component {
         <StyledPage>
           <Meta />
           {this.props.children}
+          <Footer />
         </StyledPage>
       </ThemeProvider>
     );
