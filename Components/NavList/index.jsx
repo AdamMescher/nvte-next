@@ -1,10 +1,10 @@
 import React from 'react';
-import generateNavListItems from '../../lib/generateNavListItems';
+import generateNavListHyperlinks from '../../lib/generateNavListHyperlinks';
 
 
 const NavList = ({ hyperlinks }) => (
     <ul>
-        {generateNavListItems(hyperlinks)}
+        {generateNavListHyperlinks(hyperlinks)}
     </ul>
 );
 
