@@ -2,7 +2,7 @@ import React from 'react';
 import StyledContactForm from './styled';
 
 const ContactForm = () => (
-    <StyledContactForm>
+    <StyledContactForm name="contact" netlify>
         <label>
             name
             <input required placeholder="name" name="name" type="text" id="name" />
