@@ -2,7 +2,14 @@ import React from 'react';
 import StyledContactForm from './styled';
 
 const ContactForm = () => (
-  <StyledContactForm name="contact" netlify>
+  <StyledContactForm
+    name="contact"
+    method="post"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+  >
+    >
+    <input type="hidden" name="form-name" value="contact" />
     <label>
       name
       <input required placeholder="name" name="name" type="text" id="name" />
