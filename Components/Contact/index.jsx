@@ -1,5 +1,5 @@
 import React from 'react';
-import StyledContact from '';
+import StyledContact from './styled';
 
 const Contact = () => <StyledContact />
 
