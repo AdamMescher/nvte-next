@@ -33,11 +33,13 @@ const StyledContactForm = styled.form`
         font-size: 2em;
         margin: 2rem 0 2rem 0;
         padding: 1rem 4rem 1rem 4rem;
+        transition: 0.3s;
     }
     input[type="submit"]:hover {
         background-color: black;
         color: white;
         cursor: pointer;
+        transition: 0.3s;
     }
     @media (max-width: 700px) {
         label,

@@ -3,7 +3,7 @@ import StyledContact from './styled';
 import ContactForm from '../ContactForm/index';
 
 const Contact = () => (
-    <StyledContact>
+    <StyledContact id="contact">
         <h2>contact</h2>
         <ContactForm />
     </StyledContact>
