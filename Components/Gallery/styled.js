@@ -9,6 +9,7 @@ const StyledGallery = styled.section`
         display: flex;
         justify-content: center;
         font-family: ${props => props.theme.fontStack.serif};
+        font-size: ${props => props.theme.fontSize.h2};
     }
     div {
         width: calc(100% - 6rem);
