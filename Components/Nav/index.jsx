@@ -1,27 +1,12 @@
 import React from 'react';
-import Link from 'next/link';
 import StyledNav from './styled';
+import NavList from '../NavList/index';
+import hyperlinks from '../../lib/links';
 
 const Nav = () => (
     <StyledNav>
-        <ul>
-            <li>
-                <Link href="#about">
-                    <a>About</a>
-                </Link>
-            </li>
-            <li>
-                <Link href="#gallery">
-                    <a >Gallery</a>
-                </Link>
-            </li>
-            <li>
-                <Link href="#contact">
-                    <a>Contact</a>
-                </Link>
-            </li>
-        </ul>
+        <NavList hyperlinks={hyperlinks} />
     </StyledNav>
-);
+)
 
 export default Nav;

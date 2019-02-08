@@ -1,5 +1,6 @@
 import React from 'react';
 import StyledFooter from './styled';
+import Nav from '../Nav/index';
 
 const Footer = () => (
     <StyledFooter>

@@ -7,17 +7,17 @@ const ContactForm = () => (
             name
             <input required placeholder="name" name="name" type="text" id="name" />
         </label>
-        <label class="contact-form-label" for="email">
+        <label htmlFor="email">
             email
             <input required placeholder="email" name="email" type="email" id="email" />
         </label>
-        <label class="contact-form-label" for="phone">
+        <label htmlFor="phone">
             phone (optional)
-            <input class="contact-form-input" placeholder="phone" name="phone" type="tel" id="phone" />
+            <input placeholder="phone" name="phone" type="tel" id="phone" />
         </label>
-        <label for="body">
+        <label htmlFor="body">
             message
-            <textarea required class="contact-form-input" placeholder="message" name="body" id="body"></textarea>
+            <textarea required placeholder="message" name="body" id="body"></textarea>
         </label>
         <div data-netlify-recaptcha></div>
         <input type="submit" value="Send Message" />
