@@ -1,10 +1,16 @@
 import React from 'react';
 import StyledFooter from './styled';
-import Nav from '../Nav/index';
+import NavList from '../NavList/index';
+import SocialList from '../SocialList/index';
+import hyperlinks from '../../lib/hyperlinks';
+import socialHyperlinks from '../../lib/socialHyperlinks';
 
 const Footer = () => (
     <StyledFooter>
-        <div>Footer</div>
+        <nav>
+            <NavList hyperlinks={hyperlinks} />
+        </nav>
+        <SocialList socialHyperlinks={socialHyperlinks} />
     </StyledFooter>
 );
 
