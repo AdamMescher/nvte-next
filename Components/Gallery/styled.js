@@ -4,20 +4,15 @@ const StyledGallery = styled.section`
     width: 100%;
     padding-bottom: 1.5rem;
     h2 {
-        padding: 3rem 0 3rem 0;
-        width: 100%;
+        padding: 1rem 0 1rem 0;
+        width: calc(100% - 2rem);
         display: flex;
         justify-content: center;
         font-family: ${props => props.theme.fontStack.serif};
         font-size: ${props => props.theme.fontSize.h2};
     }
     div {
-        width: calc(100% - 6rem);
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-        grid-gap: 3rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
+        display: flex;
         justify-items: center;
     }
     img {
@@ -26,12 +21,12 @@ const StyledGallery = styled.section`
     }
     @media (max-width: 600px) {
         h2 {
-            padding: 1.5rem 0 1.5rem;
+            padding: 0.5rem 0 0.5rem;
         }
         div {
-            width: calc(100% - 3rem);
+            width: calc(100% - 1rem);
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            padding: 0 1.5rem 0 1.5rem;
+            padding: 0 0.5rem 0 0.5rem;
         }
 `;
 

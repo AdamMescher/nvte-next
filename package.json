@@ -10,12 +10,12 @@
     "lint": "./node_modules/.bin/eslint ./ --ext .jsx --ext .js"
   },
   "dependencies": {
-    "cloudinary": "^1.13.2",
-    "cloudinary-react": "^1.1.0",
     "dotenv": "^6.2.0",
     "next": "7.0.2",
     "react": "16.7.0",
     "react-dom": "16.7.0",
+    "react-images": "^0.5.19",
+    "react-photo-gallery": "^6.3.1",
     "styled-components": "^4.0.0",
     "styled-reset": "^1.6.6"
   },
