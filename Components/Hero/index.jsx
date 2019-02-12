@@ -1,20 +1,23 @@
 import React from 'react';
-import StyledHero from './styled';
 import Link from 'next/link';
+import StyledHero from './styled';
 import FullPageBackgroundImage from '../FullPageBackgroundImage/index';
 import Nav from '../Nav/index';
 import Logo from '../Logo/index';
 
 const Hero = () => (
-    <StyledHero>
-        <FullPageBackgroundImage src={`https://source.unsplash.com/random/2560×1440`} alt={`Unsplash filler image`} />
-        <Nav />
-        <Link href="/">
-            <a>
-                <Logo />
-            </a>
-        </Link>
-    </StyledHero>
-)
+  <StyledHero>
+    <FullPageBackgroundImage
+      src="../../static/assets/images/large-image/5 - Reyka.jpg"
+      alt="Promotional shot of Reyka Vodka taken at a place that I'm not sure of"
+    />
+    <Nav />
+    <Link href="/">
+      <a>
+        <Logo />
+      </a>
+    </Link>
+  </StyledHero>
+);
 
 export default Hero;
