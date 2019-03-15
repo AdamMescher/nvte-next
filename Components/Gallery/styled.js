@@ -5,10 +5,10 @@ const StyledGallery = styled.section`
     padding-bottom: 1.5rem;
     h2 {
         padding: 1rem 0 1rem 0;
-        width: calc(100% - 2rem);
+        width: 100%;
         display: flex;
         justify-content: center;
-        font-family: ${props => props.theme.fontStack.serif};
+        font-family: ${props => props.theme.fontStack.sansSerif};
         font-size: ${props => props.theme.fontSize.h2};
     }
     div {
