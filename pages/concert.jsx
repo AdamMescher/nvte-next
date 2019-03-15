@@ -1,4 +1,4 @@
-import Page from '../Components/Page/index';
+import Page from '../components/Page/index';
 
 const Concert = () => (
   <section>

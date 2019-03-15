@@ -1,5 +1,5 @@
-import Page from '../Components/Page/index';
-import FullPageBackgroundImage from '../Components/FullPageBackgroundImage';
+import Page from '../components/Page/index';
+import FullPageBackgroundImage from '../components/FullPageBackgroundImage';
 import hyperlinks from '../lib/hyperlinks';
 
 const Wedding = () => (
