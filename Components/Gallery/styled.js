@@ -4,7 +4,6 @@ const StyledGallery = styled.section`
     width: 100%;
     padding-bottom: 1.5rem;
     h2 {
-        padding: 1rem 0 1rem 0;
         width: 100%;
         display: flex;
         justify-content: center;
