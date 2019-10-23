@@ -5,8 +5,22 @@ const About = () => (
   <StyledAbout id="about">
     <h2>about</h2>
     <p>
-      NVTEVISUALS is a full service media coverage company. With years of experience, our goal is to effortlessly capture the highest quality content for all sizes and styles of clients. With everything available from single shooter media coverage to coordinating entire media teams to cover large scale events, our focus is to capture content for all your needs. We understand media coverage is an experience larger than the main event for which we diligently cover the overall media needs of social media, promotional material, digital marketing, enhancing the quality of your media and your brand overall. Please enjoy our gallery and hear our testimonials how we strive for excellence by seeking to improve your content and your presence!
+      NVTEVISUALS is a versatile media coverage company from the Triangle RDU of North Carolina. Over the years, the goal has been to provide more than a service to clients, but a solution to media needs. Serving clients of all sizes from individual personal clients to large scale corporate events local and nationally, we bring experience, professionalism, and excellent media to meet your versatile needs. From capturing at source to delivering the final product, NVTEVISUALS seeks to elevate your media needs to be the absolute best they can be.
     </p>
+    <p>
+      Ask about these services and beyond:
+    </p>
+    <ul>
+      <li>Photography</li>
+      <li>Cinematography</li>
+      <li>Interview A/V Operation</li>
+      <li>Festival Media</li>
+      <li>Team Media Coordination</li>
+      <li>Tour Media</li>
+      <li>Photography Editing & Retouching</li>
+      <li>Videography Editing</li>
+      <li>Graphic Design</li>
+    </ul>
   </StyledAbout>
 );
 

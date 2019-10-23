@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styled */ "./components/About/styled.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/About/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/About/index.jsx";
 
 
 
@@ -81,7 +81,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styled */ "./components/Contact/styled.js");
 /* harmony import */ var _ContactForm_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../ContactForm/index */ "./components/ContactForm/index.jsx");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/Contact/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/Contact/index.jsx";
 
 
 
@@ -148,7 +148,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styled */ "./components/ContactForm/styled.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/ContactForm/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/ContactForm/index.jsx";
 
 
 
@@ -304,7 +304,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialList_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SocialList/index */ "./components/SocialList/index.jsx");
 /* harmony import */ var _lib_hyperlinks__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../lib/hyperlinks */ "./lib/hyperlinks.js");
 /* harmony import */ var _lib_socialHyperlinks__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../lib/socialHyperlinks */ "./lib/socialHyperlinks.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/Footer/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/Footer/index.jsx";
 
 
 
@@ -377,7 +377,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styled */ "./components/FullPageBackgroundImage/styled.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/FullPageBackgroundImage/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/FullPageBackgroundImage/index.jsx";
 
 
 
@@ -431,7 +431,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styled */ "./components/Gallery/styled.js");
 /* harmony import */ var _LightboxGallery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../LightboxGallery */ "./components/LightboxGallery/index.jsx");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/Gallery/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/Gallery/index.jsx";
 
 
 
@@ -509,7 +509,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _FullPageBackgroundImage_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../FullPageBackgroundImage/index */ "./components/FullPageBackgroundImage/index.jsx");
 /* harmony import */ var _Nav_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Nav/index */ "./components/Nav/index.jsx");
 /* harmony import */ var _Logo_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Logo/index */ "./components/Logo/index.jsx");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/Hero/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/Hero/index.jsx";
 
 
 
@@ -599,7 +599,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_images__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_images__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _lib_indexGalleryImages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/indexGalleryImages */ "./lib/indexGalleryImages.js");
 /* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styled */ "./components/LightboxGallery/styled.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/LightboxGallery/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/LightboxGallery/index.jsx";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -757,7 +757,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styled */ "./components/Logo/styled.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/Logo/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/Logo/index.jsx";
 
 
 
@@ -810,7 +810,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/Meta/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/Meta/index.jsx";
 
 
 
@@ -912,7 +912,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styled */ "./components/Nav/styled.js");
 /* harmony import */ var _NavList_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../NavList/index */ "./components/NavList/index.jsx");
 /* harmony import */ var _lib_hyperlinks__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/hyperlinks */ "./lib/hyperlinks.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/Nav/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/Nav/index.jsx";
 
 
 
@@ -972,7 +972,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _lib_generateNavListHyperlinks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../lib/generateNavListHyperlinks */ "./lib/generateNavListHyperlinks.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/NavList/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/NavList/index.jsx";
 
 
 
@@ -1009,7 +1009,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Meta_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Meta/index */ "./components/Meta/index.jsx");
 /* harmony import */ var _Footer_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Footer/index */ "./components/Footer/index.jsx");
 /* harmony import */ var _lib_theme__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../lib/theme */ "./lib/theme.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/Page/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/Page/index.jsx";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -1135,7 +1135,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styled */ "./components/SimpleSlider/styled.js");
 /* harmony import */ var _lib_generateTestimonialList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/generateTestimonialList */ "./lib/generateTestimonialList.js");
 /* harmony import */ var _lib_testimonials__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../lib/testimonials */ "./lib/testimonials.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/SimpleSlider/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/SimpleSlider/index.jsx";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -1240,7 +1240,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styled */ "./components/SocialList/styled.js");
 /* harmony import */ var _lib_generateSocialHyperlinks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../lib/generateSocialHyperlinks */ "./lib/generateSocialHyperlinks.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/SocialList/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/SocialList/index.jsx";
 
 
 
@@ -1291,7 +1291,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styled */ "./components/TestimonialCard/styled.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/TestimonialCard/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/TestimonialCard/index.jsx";
 
 
 
@@ -1392,7 +1392,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styled */ "./components/Testimonials/styled.js");
 /* harmony import */ var _SimpleSlider_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../SimpleSlider/index */ "./components/SimpleSlider/index.jsx");
-var _jsxFileName = "/Users/adam/dev/nvte-next/components/Testimonials/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/components/Testimonials/index.jsx";
 
 
 
@@ -1459,7 +1459,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/adam/dev/nvte-next/lib/generateNavListHyperlinks.js";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/lib/generateNavListHyperlinks.js";
 
 
 
@@ -1507,7 +1507,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _socialHyperlinks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./socialHyperlinks */ "./lib/socialHyperlinks.js");
-var _jsxFileName = "/Users/adam/dev/nvte-next/lib/generateSocialHyperlinks.js";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/lib/generateSocialHyperlinks.js";
 
 
 
@@ -1563,7 +1563,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_TestimonialCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/TestimonialCard */ "./components/TestimonialCard/index.jsx");
-var _jsxFileName = "/Users/adam/dev/nvte-next/lib/generateTestimonialList.js";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/lib/generateTestimonialList.js";
 
 
 
@@ -26494,7 +26494,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Gallery_index__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Gallery/index */ "./components/Gallery/index.jsx");
 /* harmony import */ var _components_Contact_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Contact/index */ "./components/Contact/index.jsx");
 /* harmony import */ var _components_Footer_index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Footer/index */ "./components/Footer/index.jsx");
-var _jsxFileName = "/Users/adam/dev/nvte-next/pages/index.jsx";
+var _jsxFileName = "/Users/adam/dev/projects/nvte-next/pages/index.jsx";
 
 
 
@@ -26536,22 +26536,16 @@ var Index = function Index() {
       lineNumber: 15
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Testimonials__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Gallery_index__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Gallery_index__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Contact_index__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   })));

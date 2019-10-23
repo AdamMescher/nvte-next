@@ -11,13 +11,17 @@ const StyledAbout = styled.section`
         font-family: ${props => props.theme.fontStack.sansSerif};
         font-size: ${props => props.theme.fontSize.h2};
     }
-    p {
+    p, li {
         width: 60%;
         margin-left: 20%;
         display: flex;
         justify-content: center;
         padding-top: 2.5rem;
         font-family: ${props => props.theme.fontStack.serif};
+    }
+
+    li {
+        margin-top: 0;
     }
 
 `;
