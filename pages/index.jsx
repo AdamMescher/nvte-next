@@ -4,7 +4,6 @@ import Hero from '../components/Hero/index';
 import About from '../components/About/index';
 import Gallery from '../components/Gallery/index';
 import Contact from '../components/Contact/index';
-import Footer from '../components/Footer/index';
 
 const Index = () => (
     <main>
