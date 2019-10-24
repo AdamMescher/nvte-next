@@ -51,7 +51,6 @@ class LightboxGallery extends Component {
   render() {
     return (
       <StyledLightboxGallery>
-        <Gallery photos={photos} onClick={this.openLightbox} columns={this.columns} />
         <Lightbox
           images={photos}
           onClose={this.closeLightbox}
