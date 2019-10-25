@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: static/assets/images/large-image
+media_folder: /images
 logo_url: https://i.imgur.com/nLKzxBE.png
 collections:
   - name: 'pages'
