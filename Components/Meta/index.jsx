@@ -25,8 +25,6 @@ const Meta = () => (
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
-    <link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
     <style>{`body { margin: 0; }`}</style>
   </Head>
 );
