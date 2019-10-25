@@ -8,8 +8,8 @@ import Logo from '../Logo/index';
 const Hero = () => (
   <StyledHero>
     <FullPageBackgroundImage
-      src="../../static/assets/images/large-image/5 - Reyka.jpg"
-      alt="Promotional shot of Reyka Vodka taken at a place that I'm not sure of"
+      src="images/reykaTwo.jpg"
+      alt="Promotional shot of Reyka Vodka"
     />
     <Nav />
     <Link href="/">
