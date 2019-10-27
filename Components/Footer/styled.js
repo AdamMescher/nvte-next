@@ -4,7 +4,7 @@ const StyledFooter = styled.footer`
     width: 100%;
     background-color: #202225;
     padding-bottom: 2rem;
-    background-image: url('../../static/ntve-logo-black.svg');
+    background-image: url('/icons/ntve-logo-black.svg');
     background-size: auto 70%;
     background-repeat: no-repeat;
     background-position: center center;

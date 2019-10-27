@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import Carousel, { Modal, ModalGateway } from 'react-images';
+import Gallery from '../Gallery/index';
+import Image from '../Image/index';
+import StyledNewGallery from './styled';
 
-const gutter = 2;
-const Gallery = () => <div {...props}></div>
-const Image = () => <div {...props}></div>
 class NewGallery extends Component {
     state = {
         selectedIndex: 0,
@@ -20,34 +20,35 @@ class NewGallery extends Component {
         const { selectedIndex, lightboxIsOpen } = this.state;
 
         return (
-            <Fragment>
-                {!isLoading ? (
-                    <Gallery>
-                        {images.map(({ author, caption, source }, j) => (
-                            <Image onClick={() => this.toggleLightbox(j)} key={source.thumbnail}>
-                                <img
-                                    alt={caption}
-                                    src={source.thumbnail}
-                                />
-                            </Image>
-                        ))}
-                    </Gallery>
-                ) : null}
-
-                <ModalGateway>
-                    {lightboxIsOpen && !isLoading ? (
-                        <Modal onClose={this.toggleLightbox}>
-                            <Carousel
-                                components={{ FooterCaption }}
-                                currentIndex={selectedIndex}
-                                formatters={{ getAltText }}
-                                frameProps={{ autoSize: 'height' }}
-                                views={images}
-                            />
-                        </Modal>
+            <StyledNewGallery>
+                <h2>gallery</h2>
+                <Fragment>
+                    {!isLoading ? (
+                        <Gallery>
+                            {images.map(({ alt, src }, j) => (
+                                <Image onClick={() => this.toggleLightbox(j)} key={j}>
+                                    <img
+                                        alt={alt}
+                                        src={src}
+                                    />
+                                </Image>
+                            ))}
+                        </Gallery>
                     ) : null}
-                </ModalGateway>
-            </Fragment>
+                    <ModalGateway>
+                        {lightboxIsOpen && !isLoading ? (
+                            <Modal onClose={this.toggleLightbox}>
+                                <Carousel
+                                    currentIndex={selectedIndex}
+                                    formatters={{ getAltText }}
+                                    frameProps={{ autoSize: 'height' }}
+                                    views={images}
+                                />
+                            </Modal>
+                        ) : null}
+                    </ModalGateway>
+                </Fragment>
+            </StyledNewGallery>
         );
     }
 }
