@@ -1,22 +1,9 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: /images
 logo_url: https://i.imgur.com/nLKzxBE.png
-collections:
-  - name: 'pages'
-    label: 'Pages'
-    files:
-      - label: 'Home'
-        name: 'home'
-        file: 'content/home.md'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-          - label: 'Cats'
-            name: 'cats'
-            widget: list
-            fields:
-              - { label: 'Name', name: 'name', widget: 'string' }
-              - { label: 'Description', name: 'description', widget: 'text' }
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: nvte
+    api_key: 231765356149122

@@ -5,22 +5,24 @@ import Image from '../Image/index';
 import StyledNewGallery from './styled';
 
 class NewGallery extends Component {
-    state = {
-        selectedIndex: 0,
-        lightboxIsOpen: false,
-    };
-    toggleLightbox = () => {
-        this.setState(state => ({
-            lightboxIsOpen: !state.lightboxIsOpen,
-            selectedIndex,
-        }));
+    constructor(props) {
+        super(props);
+        this.state = {
+            selectedIndex: 0,
+            lightboxIsOpen: false,
+        };
+        this.toggleLightbox = () => {
+            this.setState(state => ({
+                lightboxIsOpen: !state.lightboxIsOpen,
+            }));
+        }
     };
     render() {
         const { images, isLoading } = this.props;
         const { selectedIndex, lightboxIsOpen } = this.state;
 
         return (
-            <StyledNewGallery>
+            <StyledNewGallery id="gallery">
                 <h2>gallery</h2>
                 <Fragment>
                     {!isLoading ? (
@@ -40,7 +42,6 @@ class NewGallery extends Component {
                             <Modal onClose={this.toggleLightbox}>
                                 <Carousel
                                     currentIndex={selectedIndex}
-                                    formatters={{ getAltText }}
                                     frameProps={{ autoSize: 'height' }}
                                     views={images}
                                 />

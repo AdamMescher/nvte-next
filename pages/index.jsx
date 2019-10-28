@@ -6,8 +6,12 @@ import NewGallery from '../Components/NewGallery/index';
 import Contact from '../Components/Contact/index';
 const images = [
   {
-    caption: 'hello',
-    source: '/images/bartender.jpg'
+    alt: 'hello',
+    src: '/images/bartender.jpg'
+  },
+  {
+    alt: 'hiya',
+    src: '/images/confetti.jpg'
   }
 ];
 
