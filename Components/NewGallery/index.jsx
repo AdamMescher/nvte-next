@@ -11,9 +11,10 @@ class NewGallery extends Component {
             selectedIndex: 0,
             lightboxIsOpen: false,
         };
-        this.toggleLightbox = () => {
+        this.toggleLightbox = (selectedIndex) => {
             this.setState(state => ({
                 lightboxIsOpen: !state.lightboxIsOpen,
+                selectedIndex
             }));
         }
     };

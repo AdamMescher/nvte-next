@@ -8,7 +8,6 @@ const StyledNewGallery = styled.section`
     flex-direction: column;
     justify-content: center;
     h2 {
-        background-color: red;
         display: flex;
         justify-content: center;
         font-family: ${props => props.theme.fontStack.sansSerif};

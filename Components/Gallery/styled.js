@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 const StyledGallery = styled.div`
-    overflow: 'hidden';
-    margin-left: -2;
-    margin-right: -2;
+    margin: 20px 20px 20px 0;
+    width: calc(100% - 40px);
+
 `;
 
 export default StyledGallery;
