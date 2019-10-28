@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const StyledNewGallery = styled.section`
-    height: 100%;
     padding-top: 6rem;
     padding-bottom: 6rem;
     display: flex;
