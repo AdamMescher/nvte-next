@@ -7,3 +7,14 @@ media_library:
   config:
     cloud_name: nvte
     api_key: 231765356149122
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+    - label: "Home"
+      name: "home"
+      file: "content/home.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown"}
