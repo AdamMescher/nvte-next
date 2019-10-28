@@ -13,13 +13,6 @@ const StyledNewGallery = styled.section`
         font-family: ${props => props.theme.fontStack.sansSerif};
         font-size: ${props => props.theme.fontSize.h2};
     }
-    img {
-        height: 500px;
-        cursor: pointer;
-        position: 'absolute';
-        max-width: '100%';
-        background: teal;
-    }
 `;
 
 export default StyledNewGallery;
