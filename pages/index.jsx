@@ -14,7 +14,7 @@ const Index = ({
       <Page>
         <Hero />
         <About />
-        <NewGallery images={images.resources} />
+        <NewGallery images={images.resources.map(image => ({ src: image.secure_url, alt: '' }))} />
         <Contact />
       </Page>
     </main >
@@ -28,9 +28,6 @@ Index.getInitialProps = async function () {
   const url = `https://${key}:${secret}@api.cloudinary.com/v1_1/${name}/resources/image/upload/?max_results=${maxResults}`;
   const response = await fetch(url);
   const data = await response.json();
-
-  console.log(`Show data fetched. Count: ${data.length}`);
-
   return {
     images: data
   }

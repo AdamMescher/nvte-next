@@ -28,11 +28,11 @@ class NewGallery extends Component {
                 <Fragment>
                     {!isLoading ? (
                         <Gallery>
-                            {images.map(({ alt, url }, j) => (
+                            {images.map(({ alt, src }, j) => (
                                 <Image onClick={() => this.toggleLightbox(j)} key={j}>
                                     <img
                                         alt={alt}
-                                        src={url}
+                                        src={src}
                                     />
                                 </Image>
                             ))}
