@@ -7,13 +7,3 @@ media_library:
   config:
     cloud_name: ${file(.env):${process.env.CLOUDINARY_CLOUD_NAME}}
     api_key: ${file(.env):${process.env.CLOUDINARY_API_KEY}}
-  - name: "pages"
-    label: "Pages"
-    files:
-    - label: "Home"
-      name: "home"
-      file: "content/home.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
