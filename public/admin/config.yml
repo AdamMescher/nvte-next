@@ -5,8 +5,8 @@ logo_url: https://i.imgur.com/nLKzxBE.png
 media_library:
   name: cloudinary
   config:
-    cloud_name: ${file(.env):${process.env.CLOUDINARY_CLOUD_NAME}}
-    api_key: ${file(.env):${process.env.CLOUDINARY_API_KEY}}
+    cloud_name: nvte
+    api_key: 231765356149122
 collections:
   - name: "pages"
     label: "Pages"
