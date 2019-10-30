@@ -29,6 +29,6 @@ Personal portfolio for Nathan Mescher, a creative freelancer specializing in pho
 * `dev` - Starts a local instance of the development server. Copies the create-react-app command.
 * `build` - Emits .html files for statically optimized pages.
 * `export` - Builds a HTML version of the app. At export time, it runs getInitialProps of all pages.
-* `deploy` - 
-* `start` - 
-* `lint` - 
+* `deploy` - Runs both build and export. This script is utilized by Netlify to trigger a build after a successful push to master. 
+* `start` - Starts the app on a port.
+* `lint` - Utilizes eslint and the airbnb rules to check for errors in code styled.
