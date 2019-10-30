@@ -4,9 +4,9 @@ import NavList from '../NavList/index';
 import hyperlinks from '../../lib/hyperlinks';
 
 const Nav = () => (
-    <StyledNav>
-        <NavList hyperlinks={hyperlinks} />
-    </StyledNav>
+  <StyledNav>
+    <NavList hyperlinks={hyperlinks} />
+  </StyledNav>
 )
 
 export default Nav;
