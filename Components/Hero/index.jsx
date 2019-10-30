@@ -13,7 +13,7 @@ const Hero = () => (
     />
     <Nav />
     <Link href="/">
-      <a>
+      <a href="/">
         <Logo />
       </a>
     </Link>
