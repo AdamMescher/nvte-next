@@ -8,8 +8,8 @@ const ContactForm = () => (
     data-netlify="true"
     data-netlify-honeypot="bot-field"
   >
-    <input type="hidden" name="form-name" value="contact" />
-    <label>
+    <input type="hidden" name="form-name" value="contact" htmlFor="name" />
+    <label htmlFor="name">
       name
       <input required placeholder="name" name="name" type="text" id="name" />
     </label>
