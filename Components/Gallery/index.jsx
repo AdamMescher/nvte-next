@@ -2,10 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import StyledGalley from './styled';
 
-const Gallery = ({children}) => <StyledGalley children={children}/>
+const Gallery = ({
+    children
+}) => <StyledGalley>{children}</StyledGalley>
 
-Gallery.PropTypes = {
-    children: PropTypes.array
+Gallery.propTypes = {
+    children: PropTypes.arrayOf
+}
+
+Gallery.defaultProps = {
+    children: []
 }
 
 export default Gallery;
