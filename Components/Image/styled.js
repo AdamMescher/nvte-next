@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 const StyledImage = styled.div`
     img {
         width: 100%;
