@@ -1,7 +1,34 @@
 # NVTEVISUALS
 
-## Tech Stack
-Next.js
-Deployed to Netlify 
+Personal portfolio for Nathan Mescher, a creative freelancer specializing in photography, videography, and design. 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6bb50999-ce50-4b6f-939c-0cd8f1f76feb/deploy-status)](https://app.netlify.com/sites/happy-morse-c15030/deploys)
+
+## Tech Stack
+- NextJS
+- react-images
+- Netlify
+- Netlify CMS - Used for content and media asset management
+- Cloudinary - Used for media asset management
+- Zapier
+- Mailgun
+
+## First Time Setup
+
+* Clone the repository and navigate to the root directory
+* Run `npm install`
+* To start a local instance, run the `npm run dev` script
+
+## Available Functionality
+
+- https://www.nvtevisuals.com/admin - allows an added user access to Netlify CMS dashboard to manage posts via NetlifyCMS and media assets via Cloudinary.
+
+## Available Scripts
+
+* `next` - Starts a local instance of the development server by calling the local instance of next in the node modules.
+* `dev` - Starts a local instance of the development server. Copies the create-react-app command.
+* `build` - Emits .html files for statically optimized pages.
+* `export` - Builds a HTML version of the app. At export time, it runs getInitialProps of all pages.
+* `deploy` - 
+* `start` - 
+* `lint` - 
