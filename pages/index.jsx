@@ -26,9 +26,19 @@ const getImages = async () => {
   const secret = process.env.CLOUDINARY_API_SECRET;
   const name = process.env.CLOUDINARY_CLOUD_NAME;
   const maxResults = 100;
-  const url = `https://${key}:${secret}@api.cloudinary.com/v1_1/${name}/resources/image/upload/?max_results=${maxResults}`;
-  const response = await fetch(url);
+  const url = `https://api.cloudinary.com/v1_1/${name}/resources/image/upload?max_results=${maxResults}`;
+  const response = await fetch(
+    url,
+    { mode: 'no-cors' },
+    { headers:
+      {
+        'Authorization': Buffer.from(`Basic ${key}:${secret}}`, 'binary').toString('base64'),
+        'Content-Type': 'application/json'
+      },
+    }
+  );
   const data = await response.json();
+
   return {
     images: data
   }
