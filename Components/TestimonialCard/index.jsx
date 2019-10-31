@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import StyledTestimonialCard from './styled';
 
 const TestimonialCard = ({ testimonial }) => (
@@ -12,6 +13,10 @@ const TestimonialCard = ({ testimonial }) => (
       </div>
     </div>
   </StyledTestimonialCard>
-)
+);
+
+TestimonialCard.propTypes = {
+  testimonial: PropTypes.objectOf(PropTypes.number).isRequired
+}
 
 export default TestimonialCard;
