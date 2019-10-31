@@ -7,7 +7,7 @@ const Gallery = ({
 }) => <StyledGalley>{children}</StyledGalley>
 
 Gallery.propTypes = {
-    children: PropTypes.arrayOf(PropTypes.object).isRequired
+    children: PropTypes.node.isRequired
 }
 
 export default Gallery;
