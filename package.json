@@ -32,7 +32,8 @@
     "react-photo-gallery": "^8.0.0",
     "react-slick": "^0.25.2",
     "styled-components": "^4.4.0",
-    "styled-reset": "^4.0.2"
+    "styled-reset": "^4.0.2",
+    "webpack": "^4.41.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
