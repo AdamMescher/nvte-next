@@ -17,40 +17,41 @@ class NewGallery extends Component {
                 selectedIndex
             }));
         }
-    };
+    }
+;
     render() {
         const { images, isLoading } = this.props;
         const { selectedIndex, lightboxIsOpen } = this.state;
 
         return (
-            <StyledNewGallery id="gallery">
-                <h2>gallery</h2>
-                <Fragment>
-                    {!isLoading ? (
-                        <Gallery>
-                            {images.map(({ alt, src }, j) => (
-                                <Image onClick={() => this.toggleLightbox(j)} key={j}>
-                                    <img
-                                        alt={alt}
-                                        src={src}
-                                    />
-                                </Image>
+          <StyledNewGallery id="gallery">
+            <h2>gallery</h2>
+            <>
+              {!isLoading ? (
+                <Gallery>
+                  {images.map(({ alt, src }, j) => (
+                    <Image onClick={() => this.toggleLightbox(j)} key={j}>
+                      <img
+                        alt={alt}
+                        src={src}
+                      />
+                    </Image>
                             ))}
-                        </Gallery>
+                </Gallery>
                     ) : null}
-                    <ModalGateway>
-                        {lightboxIsOpen && !isLoading ? (
-                            <Modal onClose={this.toggleLightbox}>
-                                <Carousel
-                                    currentIndex={selectedIndex}
-                                    frameProps={{ autoSize: 'height' }}
-                                    views={images}
-                                />
-                            </Modal>
+              <ModalGateway>
+                {lightboxIsOpen && !isLoading ? (
+                  <Modal onClose={this.toggleLightbox}>
+                    <Carousel
+                      currentIndex={selectedIndex}
+                      frameProps={{ autoSize: 'height' }}
+                      views={images}
+                    />
+                  </Modal>
                         ) : null}
-                    </ModalGateway>
-                </Fragment>
-            </StyledNewGallery>
+              </ModalGateway>
+            </>
+          </StyledNewGallery>
         );
     }
 }

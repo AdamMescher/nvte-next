@@ -15,11 +15,11 @@ class SimpleSlider extends Component {
             slidesToScroll: 1
         };
         return (
-            <StyledSimpleSlider>
-                <Slider {...settings}>
-                    {generateTestimonialList(testimonials)}
-                </Slider>
-            </StyledSimpleSlider>
+          <StyledSimpleSlider>
+            <Slider {...settings}>
+              {generateTestimonialList(testimonials)}
+            </Slider>
+          </StyledSimpleSlider>
         );
     }
 }

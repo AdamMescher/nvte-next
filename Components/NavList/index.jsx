@@ -3,9 +3,9 @@ import generateNavListHyperlinks from '../../lib/generateNavListHyperlinks';
 
 
 const NavList = ({ hyperlinks }) => (
-    <ul>
-        {generateNavListHyperlinks(hyperlinks)}
-    </ul>
+  <ul>
+    {generateNavListHyperlinks(hyperlinks)}
+  </ul>
 );
 
 export default NavList;

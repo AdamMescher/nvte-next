@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import fetch from 'isomorphic-unfetch';
+import btoa from 'btoa';
 import Meta from '../Components/Meta/index';
 import Page from '../Components/Page/index';
 import Hero from '../Components/Hero/index';
@@ -21,33 +22,41 @@ const Index = ({
   </main>
   );
 
-const getImages = async () => {
+Index.getInitialProps = async () => {
   const key = process.env.CLOUDINARY_API_KEY;
   const secret = process.env.CLOUDINARY_API_SECRET;
   const name = process.env.CLOUDINARY_CLOUD_NAME;
   const maxResults = 100;
   const url = `https://api.cloudinary.com/v1_1/${name}/resources/image/upload?max_results=${maxResults}`;
-  const response = await fetch(
+  const authorization = `Basic ${btoa(`${key  }:${  secret}`)}`;
+  const data = await fetch(
     url,
-    { mode: 'no-cors' },
-    { headers:
-      {
-        'Authorization': Buffer.from(`Basic ${key}:${secret}}`, 'binary').toString('base64'),
-        'Content-Type': 'application/json'
-      },
+    {
+      mode: 'no-cors',
+      headers: { 'Authorization': authorization }
     }
-  );
-  const data = await response.json();
+  )
+  .then(res => res.json())
+  .catch(err => console.error(err))
 
   return {
     images: data
   }
-}
-
-Index.getInitialProps = getImages();
+};
 
 Index.propTypes = {
-  images: PropTypes.arrayOf.isRequired
+  images: PropTypes.shape({
+      public_id: PropTypes.string,
+      format: PropTypes.string,
+      version: PropTypes.number,
+      resource_type: PropTypes.string,
+      type: PropTypes.string,
+      created_at: PropTypes.string,
+      bytes: PropTypes.number,
+      width: PropTypes.number,
+      height: PropTypes.number,
+      url: PropTypes.string,
+      secure_url: PropTypes.string
+  }).isRequired
 }
-
 export default Index;

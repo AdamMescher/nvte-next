@@ -8,7 +8,6 @@ const Image = ({
 }) => <StyledImage onClick={onClick}>{children}</StyledImage>
 
 Image.propTypes = {
-    children: PropTypes.instanceOf(<img src="" alt="" />).isRequired,
     onClick: PropTypes.func.isRequired
   }
 
