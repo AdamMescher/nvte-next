@@ -4,7 +4,7 @@ const generateNavListHyperlinks = (hyperlinks) => (
     hyperlinks.map(hyperlink => (
       <li key={hyperlink.txt}>
         <Link href={`#${hyperlink.href}`}>
-          <a>{`${hyperlink.txt}`}</a>
+          <a href={`#${hyperlink.href}`}>{`${hyperlink.txt}`}</a>
         </Link>
       </li>
     ))
