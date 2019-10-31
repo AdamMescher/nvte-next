@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
+import PropTypes from 'prop-types';
 import reset from 'styled-reset'
 import StyledPage from './styled';
 import Meta from '../Meta/index';
 import Footer from '../Footer/index';
 import theme from '../../lib/theme';
-
+// eslint-disable-next-line
 createGlobalStyle`
  ${reset}
   html {
@@ -50,18 +51,21 @@ createGlobalStyle`
   }
 `
 
-class Page extends Component {
-  render() {
-    return (
-      <ThemeProvider theme={theme}>
-        <StyledPage>
-          <Meta />
-          {this.props.children}
-          <Footer />
-        </StyledPage>
-      </ThemeProvider>
-    );
-  }
+const Page = ({ children }) => {
+  return (
+    <ThemeProvider theme={theme}>
+      <StyledPage>
+        <Meta />
+        {/* eslint-disable-next-line */}
+        {children}
+        <Footer />
+      </StyledPage>
+    </ThemeProvider>
+  );
+}
+
+Page.propTypes = {
+  children: PropTypes.arrayOf(PropTypes.object).isRequired
 }
 
 export default Page;
