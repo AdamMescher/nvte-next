@@ -16,7 +16,8 @@ const Index = ({
     <Page>
       <Hero />
       <About />
-      <NewGallery images={images.resources.map(image => ({ src: image.secure_url, alt: '' }))} />
+      {/* eslint-disable-next-line */}
+      <NewGallery images={images.resources.map(image => ({ src: image.secure_url, alt: '' }))} /> 
       <Contact />
     </Page>
   </main>
@@ -37,7 +38,7 @@ Index.getInitialProps = async () => {
     }
   )
   .then(res => res.json())
-  .catch(err => console.error(err))
+  .catch(err => console.error(err)) // eslint-disable-line
 
   return {
     images: data

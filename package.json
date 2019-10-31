@@ -17,6 +17,7 @@
     "btoa": "^1.2.1",
     "cloudinary-core": "^2.7.4",
     "cloudinary-react": "^1.2.1",
+    "dotenv": "^8.2.0",
     "frontmatter-markdown-loader": "^2.3.0",
     "isomorphic-unfetch": "^3.0.0",
     "lodash": "^4.17.15",
@@ -36,7 +37,6 @@
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "babel-plugin-styled-components": "^1.10.6",
-    "dotenv": "^8.2.0",
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "6.4.0",
