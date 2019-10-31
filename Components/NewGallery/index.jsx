@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 import uuidv4 from 'uuid/v4';
 import Gallery from '../Gallery/index';
@@ -55,6 +56,11 @@ class NewGallery extends Component {
       </StyledNewGallery>
     );
   }
+}
+
+NewGallery.propTypes = {
+  images: PropTypes.arrayOf(PropTypes.object).isRequired,
+  isLoading: PropTypes.bool.isRequired
 }
 
 export default NewGallery;
