@@ -1,6 +1,7 @@
 {
   "name": "with-styled-components",
   "version": "1.0.0",
+  "description": "Personal portfolio website for Nathan Mescher's NVTEVISUALS photography and videography.",
   "author": {
     "name": "Adam Mescher",
     "email": "admescher@gmail.com",
@@ -45,5 +46,6 @@
     "prettier": "1.18.2",
     "webpackbar": "^4.0.0"
   },
+  "homepage": "https://www.nvtevisuals.com",
   "license": "MIT"
 }
