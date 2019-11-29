@@ -1,6 +1,11 @@
 {
   "name": "with-styled-components",
   "version": "1.0.0",
+  "author": {
+    "name": "Adam Mescher",
+    "email": "admescher@gmail.com",
+    "url": "https://www.mescher.io"
+  },
   "scripts": {
     "next": "./node_modules/next/dist/bin/next",
     "dev": "next",
@@ -40,5 +45,5 @@
     "prettier": "1.18.2",
     "webpackbar": "^4.0.0"
   },
-  "license": "ISC"
+  "license": "MIT"
 }
