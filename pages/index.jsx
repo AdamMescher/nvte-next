@@ -7,6 +7,7 @@ import Hero from '../Components/Hero/index';
 import About from '../Components/About/index';
 import NewGallery from '../Components/NewGallery/index';
 import Contact from '../Components/Contact/index';
+import Services from '../Components/Services/index';
 
 const Index = ({
   images
@@ -16,8 +17,9 @@ const Index = ({
     <Page>
       <Hero />
       <About />
+      <Services />
       {/* eslint-disable-next-line */}
-      <NewGallery images={images.resources.map(image => ({ src: image.secure_url, alt: '' }))} /> 
+      <NewGallery images={images.resources.map(image => ({ src: image.secure_url, alt: '' }))} isLoading={true} />
       <Contact />
     </Page>
   </main>
@@ -29,7 +31,7 @@ Index.getInitialProps = async () => {
   const name = process.env.CLOUDINARY_CLOUD_NAME;
   const maxResults = 100;
   const url = `https://api.cloudinary.com/v1_1/${name}/resources/image/upload?max_results=${maxResults}`;
-  const authorization = `Basic ${btoa(`${key  }:${  secret}`)}`;
+  const authorization = `Basic ${btoa(`${key}:${secret}`)}`;
   const data = await fetch(
     url,
     {
@@ -60,4 +62,5 @@ Index.propTypes = {
       secure_url: PropTypes.string
   }).isRequired
 }
+
 export default Index;

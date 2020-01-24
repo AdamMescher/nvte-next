@@ -7,11 +7,9 @@ const ServiceCardList = ({
   services
 }) => (
   <StyledServiceCardList>
-    <ul>
-      {services.map(service => <ServiceCard text={service.text} />)}
-    </ul>
+    {services.map(service => <ServiceCard alt={service.alt} text={service.text} src={service.src} key={service.alt} />)}
   </StyledServiceCardList>
-)
+);
 
 ServiceCardList.propTypes = {
   services: PropTypes.arrayOf(PropTypes.shape({
