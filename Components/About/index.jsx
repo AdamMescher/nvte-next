@@ -1,6 +1,5 @@
 import React from 'react';
 import StyledAbout from './styled';
-import ServiceCardList from '../ServiceCardList';
 
 const About = () => (
   <StyledAbout id="about">
