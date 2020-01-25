@@ -19,7 +19,7 @@ const Index = ({
       <About />
       <Services />
       {/* eslint-disable-next-line */}
-      <NewGallery images={images.resources.map(image => ({ src: image.secure_url, alt: '' }))} isLoading={true} />
+      <NewGallery images={images.resources.map(image => ({ src: image.secure_url, alt: '' }))} />
       <Contact />
     </Page>
   </main>
@@ -32,6 +32,7 @@ Index.getInitialProps = async () => {
   const maxResults = 100;
   const url = `https://api.cloudinary.com/v1_1/${name}/resources/image/upload?max_results=${maxResults}`;
   const authorization = `Basic ${btoa(`${key}:${secret}`)}`;
+  console.log(url, authorization)
   const data = await fetch(
     url,
     {
