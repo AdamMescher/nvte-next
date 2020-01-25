@@ -11,6 +11,9 @@ const Footer = () => (
       <NavList hyperlinks={hyperlinks} />
     </nav>
     <SocialList socialHyperlinks={socialHyperlinks} />
+    <div>
+      <img className="nvte-logo-bot" src="/icons/nvte-logo-black.svg" alt="NVTEVISUALS stylized N logo" />
+    </div>
   </StyledFooter>
 );
 

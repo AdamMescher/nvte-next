@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const StyledServices = styled.section`
-    background-image: url('/patterns/5-dots.png');
+    background-image: url('/patterns/dark-triangles.png');
     color: white;
     display: flex;
     flex-direction: column;

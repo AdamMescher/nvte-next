@@ -4,7 +4,7 @@ import StyledLogo from './styled';
 const Logo = () => (
   <StyledLogo
     className="heroLogo"
-    src="icons/ntve-logo-black.svg"
+    src="icons/nvte-logo-black.svg"
     alt="NVTEVISUALS stylized 'N' logo"
   />
 );

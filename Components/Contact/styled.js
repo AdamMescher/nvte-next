@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const StyledContact = styled.section`
     width: 100%;
-    background-image: url('/patterns/triangle-mosaic.png');
+    background-image: url('/patterns/dot-grid.png');
     h2 {
         width: 100%;
         display: flex;
