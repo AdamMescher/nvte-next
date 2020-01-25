@@ -20,6 +20,10 @@ const StyledAbout = styled.section`
         font-family: ${props => props.theme.fontStack.serif};
     }
 
+    p {
+        line-height: 1.2;
+    }
+
     li {
         margin-top: 0;
     }

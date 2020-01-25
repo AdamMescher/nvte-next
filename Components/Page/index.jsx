@@ -16,7 +16,7 @@ createGlobalStyle`
     margin: 0;
     font-family: ${theme.fontStack.serif};
     font-weight: 400;
-    line-height: 1.45;
+    line-height: 1.65;
     display: flex;
     flex-direction: column;
   }

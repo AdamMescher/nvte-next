@@ -2,9 +2,7 @@ import React from 'react';
 import StyledAbout from './styled';
 import ServiceCardList from '../ServiceCardList';
 
-const About = ({
-  services
-}) => (
+const About = () => (
   <StyledAbout id="about">
     <h2>about</h2>
     <p>
