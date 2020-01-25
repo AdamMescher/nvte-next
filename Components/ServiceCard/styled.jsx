@@ -9,6 +9,7 @@ const StyledServiceCard = styled.li`
     padding: 8px 12px 8px 12px;
     img {
         height: 42px;
+        filter: invert(1);
     }
 
     h3 {

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const StyledFooter = styled.footer`
     height: 40vh;
     width: 100%;
-    background-color: #202225;
+    background-color: #313639;
     padding-bottom: 2rem;
     background-image: url('/icons/ntve-logo-black.svg');
     background-size: auto 70%;

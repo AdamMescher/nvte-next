@@ -19,6 +19,7 @@ const StyledContactForm = styled.form`
         font-size: 1.3em;
         padding: 0.75rem;
         border: 2px solid black;
+        border-radius: 4px;
     }
     input::placeholder {
         font-family: ${props => props.theme.fontStack.serif};

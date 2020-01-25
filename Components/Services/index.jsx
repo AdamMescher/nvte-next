@@ -4,7 +4,7 @@ import ServiceCardList from '../ServiceCardList';
 import serviceCardContents from '../../lib/serviceCardContents';
 
 const Services = () => (
-  <StyledServices>
+  <StyledServices id="services">
     <h2>services</h2>
     <ServiceCardList services={serviceCardContents} />
   </StyledServices>

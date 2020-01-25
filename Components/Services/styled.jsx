@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 const StyledServices = styled.section`
+    background-color: #313639;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;

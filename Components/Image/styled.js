@@ -4,6 +4,7 @@ const StyledImage = styled.div`
     img {
         width: 100%;
         object-fit: cover;
+        border-radius: 4px;
     }
     }
     img :hover {
