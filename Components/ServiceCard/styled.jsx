@@ -7,6 +7,7 @@ const StyledServiceCard = styled.li`
     width: 100%;
     font-family: ${props => props.theme.fontStack.sansSerif};
     padding: 8px 12px 8px 12px;
+    transition: 0.2s ease-in-out;
     img {
         height: 42px;
         filter: invert(1);

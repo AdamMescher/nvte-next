@@ -11,6 +11,7 @@ const StyledContact = styled.section`
         font-family: ${props => props.theme.fontStack.sansSerif};
         font-size: ${props => props.theme.fontSize.h2};
     }
+    margin-bottom: -1rem;
 `;
 
 export default StyledContact;
