@@ -32,6 +32,9 @@ const StyledServiceCard = styled.li`
         img {
             height: 24px;
         }
+        h3 {
+            margin-left: 16px;
+        }
     }
 `;
 

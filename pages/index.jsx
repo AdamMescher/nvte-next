@@ -32,7 +32,6 @@ Index.getInitialProps = async () => {
   const maxResults = 100;
   const url = `https://api.cloudinary.com/v1_1/${name}/resources/image/upload?max_results=${maxResults}`;
   const authorization = `Basic ${btoa(`${key}:${secret}`)}`;
-  console.log(url, authorization)
   const data = await fetch(
     url,
     {
