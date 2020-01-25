@@ -3,12 +3,8 @@ import styled from 'styled-components';
 const StyledFooter = styled.footer`
     height: 40vh;
     width: 100%;
-    background-color: #313639;
+    background-image: url('/patterns/5-dots.png');
     padding-bottom: 2rem;
-    background-image: url('/icons/ntve-logo-black.svg');
-    background-size: auto 70%;
-    background-repeat: no-repeat;
-    background-position: center center;
     ul {
         list-style: none;
         padding: 2rem 0 2rem 0;
@@ -27,7 +23,7 @@ const StyledFooter = styled.footer`
         text-decoration: none;
     }
     ul li a:hover {
-        color: black;
+        color: #7E7E7E;
     }
     @media (max-width: 650px) {
         ul li {

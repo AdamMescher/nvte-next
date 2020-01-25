@@ -10,7 +10,7 @@ const StyledSocialList = styled.ul`
         height: 2rem;
     }
     img:hover {
-        filter: invert(1);
+        filter: invert(0.5);
     }
 `;
 

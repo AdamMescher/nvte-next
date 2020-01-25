@@ -27,7 +27,7 @@ const StyledNav = styled.nav`
         font-family: ${props => props.theme.fontStack.serif};
     }
     ul li a:hover {
-        color: black;
+        color: #7E7E7E;
     }
 
     @media (max-width: 720px) {

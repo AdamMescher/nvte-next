@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const StyledContact = styled.section`
     width: 100%;
+    background-image: url('/patterns/triangle-mosaic.png');
     h2 {
         width: 100%;
         display: flex;
