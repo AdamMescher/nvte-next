@@ -14,11 +14,14 @@
     "export": "next export",
     "deploy": "npm run build && npm run export",
     "start": "next start",
-    "lint": "./node_modules/.bin/eslint ./ --ext .jsx --ext .js"
+    "lint": "./node_modules/.bin/eslint ./ --ext .jsx --ext .js",
+    "analyze": "cross-env ANALYZE=true npm run build"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^9.2.1",
     "axios": "^0.19.2",
     "btoa": "^1.2.1",
+    "cross-env": "^7.0.0",
     "dotenv": "^8.2.0",
     "frontmatter-markdown-loader": "^3.1.0",
     "isomorphic-unfetch": "^3.0.0",
