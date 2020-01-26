@@ -9,6 +9,9 @@ import theme from '../../lib/theme';
 // eslint-disable-next-line
 createGlobalStyle`
  ${reset}
+  @font-face {
+    font-display: swap;
+  }
   html {
     font-size: 1em;
   }

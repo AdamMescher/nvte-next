@@ -7,7 +7,7 @@ const Meta = () => (
     <meta charSet="utf-8" />
     <meta name="author" content="Nate Mescher" />
     <meta name="description" content="Nate Mescher portfolio for NVTEVISUALS freelance event photography and videography" />
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lato|Merriweather|Sansita One" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lato|Merriweather|Sansita One&display=swap" rel="stylesheet" />
     <title>NVTEVISUALS</title>
     <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png" />
