@@ -17,7 +17,9 @@ Personal portfolio for Nathan Mescher, a creative freelancer specializing in pho
 
 * Clone the repository and navigate to the root directory
 * Run `npm install`
+* Update `.env-sample` filename to `.env` and update the contents to include `CLOUDINARY_API_NAME`, `CLOUDINARY_API_KEY`, and `CLOUDINARY_API_SECRET`.
 * To start a local instance, run the `npm run dev` script
+
 
 ## Available Functionality
 
