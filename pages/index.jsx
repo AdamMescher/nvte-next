@@ -11,7 +11,8 @@ import Services from '../Components/Services/index';
 
 const generateOptimizedImageURL = url => {
   const splitURL = url.slice(8).split('/')
-  splitURL.splice(4,0, 'q_auto:eco')
+  splitURL.splice(4,0, 'q_auto:good')
+  splitURL.splice(5,0, 'h_750')
   return `https://${splitURL.join('/')}`
 }
 
