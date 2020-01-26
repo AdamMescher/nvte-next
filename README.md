@@ -1,6 +1,6 @@
 # NVTEVISUALS
 
-Personal portfolio for Nathan Mescher, a creative freelancer specializing in photography, videography, and design. 
+Personal portfolio for Nathan Mescher, a creative freelancer specializing in photography, videography, and design.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6bb50999-ce50-4b6f-939c-0cd8f1f76feb/deploy-status)](https://app.netlify.com/sites/happy-morse-c15030/deploys)
 
@@ -31,6 +31,6 @@ Personal portfolio for Nathan Mescher, a creative freelancer specializing in pho
 * `dev` - Starts a local instance of the development server. Copies the create-react-app command.
 * `build` - Emits .html files for statically optimized pages.
 * `export` - Builds a HTML version of the app. At export time, it runs getInitialProps of all pages.
-* `deploy` - Runs both build and export. This script is utilized by Netlify to trigger a build after a successful push to master. 
+* `deploy` - Runs both build and export. This script is utilized by Netlify to trigger a build after a successful push to master.
 * `start` - Starts the app on a port.
 * `lint` - Utilizes eslint and the airbnb rules to check for errors in code styled.

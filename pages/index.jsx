@@ -30,7 +30,8 @@ Index.getInitialProps = async () => {
   const secret = process.env.CLOUDINARY_API_SECRET;
   const name = process.env.CLOUDINARY_CLOUD_NAME;
   const maxResults = 100;
-  const url = `https://api.cloudinary.com/v1_1/${name}/resources/image/upload?max_results=${maxResults}`;
+  const quality = 20;
+  const url = `https://api.cloudinary.com/v1_1/${name}/resources/image/upload?max_results=${maxResults}&q_=${quality}`;
   const authorization = `Basic ${btoa(`${key}:${secret}`)}`;
   const data = await fetch(
     url,

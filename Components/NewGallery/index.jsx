@@ -20,6 +20,7 @@ class NewGallery extends Component {
       }));
     }
   }
+
   ;
   render() {
     const { images, isLoading } = this.props;
@@ -34,6 +35,7 @@ class NewGallery extends Component {
               {images.map(({ alt, src }, j) => (
                 <Image onClick={() => this.toggleLightbox(j)} key={`${uuidv4()}`}>
                   <img
+                    quality="auto"
                     alt={alt}
                     src={src}
                   />
