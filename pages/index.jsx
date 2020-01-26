@@ -9,6 +9,12 @@ import NewGallery from '../Components/NewGallery/index';
 import Contact from '../Components/Contact/index';
 import Services from '../Components/Services/index';
 
+const generateOptimizedImageURL = url => {
+  const splitURL = url.slice(8).split('/')
+  splitURL.splice(4,0, 'q_auto:good')
+  return `https://${splitURL.join('/')}`
+}
+
 const Index = ({
   images
 }) => (
@@ -19,7 +25,7 @@ const Index = ({
       <About />
       <Services />
       {/* eslint-disable-next-line */}
-      <NewGallery images={images.resources.map(image => ({ src: image.secure_url, alt: '' }))} />
+      <NewGallery images={images.resources.map(image => ({ src: generateOptimizedImageURL(image.secure_url), alt: '' }))} />
       <Contact />
     </Page>
   </main>
@@ -30,8 +36,7 @@ Index.getInitialProps = async () => {
   const secret = process.env.CLOUDINARY_API_SECRET;
   const name = process.env.CLOUDINARY_CLOUD_NAME;
   const maxResults = 100;
-  const quality = 20;
-  const url = `https://api.cloudinary.com/v1_1/${name}/resources/image/upload?max_results=${maxResults}&q_=${quality}`;
+  const url = `https://api.cloudinary.com/v1_1/${name}/resources/image/upload?max_results=${maxResults}`;
   const authorization = `Basic ${btoa(`${key}:${secret}`)}`;
   const data = await fetch(
     url,
