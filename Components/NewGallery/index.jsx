@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 import uuidv4 from 'uuid/v4';
+import LazyLoad from 'react-lazyload';
 import Gallery from '../Gallery/index';
 import Image from '../Image/index';
 import StyledNewGallery from './styled';
@@ -34,10 +35,9 @@ class NewGallery extends Component {
             <Gallery>
               {images.map(({ alt, src }, j) => (
                 <Image onClick={() => this.toggleLightbox(j)} key={`${uuidv4()}`}>
-                  <img
-                    alt={alt}
-                    src={src}
-                  />
+                  <LazyLoad>
+                    <img alt={alt} src={src} />
+                  </LazyLoad>
                 </Image>
               ))}
             </Gallery>
